@@ -1,0 +1,72 @@
+/* navbar */
+.navbar{
+    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    margin-bottom: 20px;
+    align-items: center;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+/* header */
+.header{
+     /* width: 100vw;  */
+     height: 110vh;
+}
+
+/* section */
+/* food-section */
+.food-section{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+   /* width: 100%; */
+}
+/* drink-section */
+.drink-section{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+   /* width: 100%; */
+}
+
+/* sepacil */
+.Spacial{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+}
+.article{
+    /* width: 100vw;  */
+     height: 90vh;
+}
+
+/* footer section */
+.foot{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+   justify-content: center;
+   align-items: center;
+   /* width: 100%; */
+}
